@@ -17,6 +17,7 @@ width: 100vw;
 /* max-width: 26.5%; */
 flex: 1;
   text-align: center;
+  justify-content: right;
 }
 
 .welcome-message{
@@ -40,7 +41,7 @@ margin-bottom: 32px;
 }
 .imi{
     width: 50%;
-    height: auto;
+    height: 68vh;
 }
 .banner-flower{
 /* padding-left: 2500;
@@ -75,14 +76,16 @@ text-align: center;
     .banner-flower{
         /* margin:0 auto; */
         /* width: 50%;
-        height: 10%; */
+         */
+        height: 100%;
         align-items: center;
         justify-content: center;
         margin: 0 auto;
     }
     .imi{
         
-        max-width: 30%;
+        max-width: 90%;
+        max-height: 10%;
        align-items: center;
        
     }
