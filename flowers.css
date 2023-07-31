@@ -56,7 +56,6 @@ text-align: center;
 /* queries */
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
       
     }
     .welcome-message{
@@ -368,7 +367,7 @@ align-items: center;
 margin: 0 auto;
 gap: 24px;
 /* Remove width and padding-left */
-border: 10px solid black;
+
 max-width: 1440px;
 width: 90%;
 
