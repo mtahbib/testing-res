@@ -1,0 +1,471 @@
+body{
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+margin: 0;
+}
+
+/* Banner Stylings */
+.full-banner{
+display: flex;
+flex: 1;
+background: rgba(229, 84, 115, 0.10);
+justify-content:space-evenly;
+margin: 0 auto;
+min-width:1280px;
+width: 100%;
+}
+.left-contents{
+/* margin-left: 240px; */
+max-width: 26.5%;}
+
+.welcome-message{
+padding-top: 6em;
+display: flex;
+width: 90%;
+color: #272727;
+font-family: Lato;
+font-size: 2rem;
+font-weight: 800;
+
+
+}
+.banner-details{
+color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 32px;
+}
+.imi{
+    width: 100%;
+    height: auto;
+}
+.banner-flower{
+/* padding-left: 2500;
+margin-right:240px;
+margin-top: 50px; */
+/* width: 100%; */
+max-width: 635px;
+width: 100%;
+/* justify-content: flex-end; */
+}
+/* queries */
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      
+    }
+    .full-banner{
+        
+        flex-direction: column;
+        margin: 0 auto;
+        /* text-align: center; */
+       
+    }
+    .left-contents{
+        /* margin:0 auto; */
+        text-align: center;
+    }
+    .banner-flower{
+        /* margin:0 auto; */
+        /* width: 50%;
+        height: 10%; */
+    }
+    .imi{
+        height: fit-content;
+        max-width: 50%;
+       
+    }
+    .flower-container{
+        flex-direction: column;
+    
+    }
+    .boque-caption1{
+        column-gap:100px;
+        
+    }
+    .services{
+        flex-direction: column;
+       
+    }
+    .centered-div{
+        flex-direction: column;
+       
+        width: 30%
+    }
+    .hot-deals{
+        order: 2;
+    }
+    .deals-flower{
+        order: 1;
+    }
+    .deals{
+        flex-direction: column;
+        
+       
+    }
+    .deals > div {
+        flex-direction: column;
+    }
+    .flower-orientation{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+  }
+/* button */
+.common-button1{
+color: #FFF;
+padding: 20px 43px;
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
+border: none;
+}
+
+
+.common-button{
+color: #FFF;
+padding: 20px 43px;
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
+border: none;
+}
+
+/* Hot deals section */
+.hot-deals{
+text-align: center;
+}
+.centered-div {
+  display: flex;
+  align-items: center;
+}
+.deals{
+    margin: 0 auto;
+display: flex;
+justify-content: center;
+border-radius: 8px;
+background: rgba(250, 20, 31, 0.05);
+min-width: 1280px;
+width: 100%;
+}
+.deal-slogan{
+/* padding-top: 230px;
+margin-left: 421px;   
+margin-bottom:24px; */
+text-align: center;
+color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+}
+.hot-deals,
+.deals-flower {
+  margin: 10px; /* Add some spacing between the two divs */
+}
+.deal-details{
+/* margin-left: 395px;
+margin-bottom:32px; */
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+/* width: 594px; */
+}
+.deals-flower{
+/* padding-top: 100px;
+padding-right:429px;
+padding-bottom:100px;
+width: 1922px;
+height: 620px; */
+}
+/* Instagram-Section */
+.insgram-section{
+
+/* max-width:1000px; */
+}
+
+.instagram{
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+.insta-heading{
+margin-top: 128px;
+color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 24px;
+
+}
+.insta-para{
+color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-weight:400;
+
+}
+
+
+/* Flowers are oriented */
+
+.flower-orientation {
+display: flex;
+justify-content: center;
+gap: 1em;
+
+
+
+} 
+/* Subscription Banner */
+
+.subscribe-banner{
+
+max-width: 1440px;
+height: 50vh; 
+background-image: url(images/rect9.png);
+background-repeat: no-repeat; 
+background-image: 100% auto;
+margin: 0 auto;
+border-radius: 8px;
+}
+
+.subscribe-banner-heading{
+color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+padding-top:122px;
+margin-bottom: 16px;
+}
+.subscribe-banner-para{
+
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+}
+
+.email-section{
+display: flex;
+gap: 16px;
+
+}
+.email{
+width: 700px;
+height: 64px;
+border: none;
+border-radius: 8px;
+background: #FFF;;
+margin-top: 48px;
+margin-left: 287px;
+}
+.common-button-2{
+color: #FFF;
+padding: 20px 43px;
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
+border: none;
+margin-top: 48px;
+width: 150px;
+height: 64px;
+}
+/*footer designs */
+
+.footer{
+width: 1922px;
+height: 449px;
+background: #111010;
+}
+.shop-name{
+color:#E55473;
+text-align: center;
+padding-top:128px;
+}
+.shop-motto{
+display: flex;
+width: 625px;
+padding-left: 648px;
+color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+
+}
+.copyright{
+display: flex;
+padding-left:782px;
+color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+
+/* Designs For Bonus and extra section */
+.featured-section{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+   
+}
+.featured-slogan {
+    
+color: #272727;
+/* padding-left: 281px;
+margin-left: 473px; */
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 24px;
+}
+.featured-para{
+/* display: flex; */
+/* width: 594px; */
+color: rgba(39, 39, 39, 0.60);
+/* padding-left: 696px; */
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+}
+.flower-container{
+border: 10px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+gap: 24px;
+max-width: 1440px;
+width: 90%;
+border:none;
+
+}
+.common-flower11{
+    width: 310px;
+    height: 428px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+.common-flower2 {
+width: 310px;
+height: 428px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+.common-flower3{
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    }
+
+/* alliging the flowers */
+.yellow-flower{
+    object-fit:cover;
+    padding-top: 70px;
+    padding-left: 35px;
+    width: 238px;
+}
+.pink-flower{
+    object-fit:cover;
+    padding-top: 99px;
+    padding-left: 35px;
+    width: 238px;
+}
+.boque{
+    object-fit:cover;
+    padding-top: 99px;
+    padding-left: 15px;
+    width: 238px;
+}
+.boque-caption{
+margin-top:15px;
+color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-weight: 700;
+text-decoration-line: underline;
+}
+.boque-caption1{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    
+    }
+.caption{
+color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-weight: 700;
+text-decoration-line: underline;
+}
+/* not mendatory section */
+.services{
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+display: flex;
+max-width: 1440px;
+border: #111010 solid;
+margin: 9.5em auto;
+
+}
+.common-images{
+margin-top: 1em;
+}
+.services{
+    display: flex;
+    justify-content: space-evenly;
+}
+.services > div {
+ text-align: center;
+}
+.common-captions{
+color: rgba(39, 39, 39, 0.80);
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+text-align: center;
+}
+/* Bonus css extra-section */
+.extra-section{
+background-image: url(images/flower.jpg);
+background-repeat:none;
+background-size: cover;
+width: 1440px;
+height: 500px;
+border: #a51212 solid;
+margin-top: 32px;
+margin-left: 232px;
+}
+.form{
+    padding-top: 5px;
+    padding-left: 20px;
+
+}
+.form-text{
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 1000;
+}
